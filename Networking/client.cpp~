@@ -1,0 +1,9 @@
+#include<iostream>
+#include <QTcpSocket>
+
+int main()
+{
+	QTcpSocket *client = new QTcpSocket(this);
+	
+	return 0;
+}
